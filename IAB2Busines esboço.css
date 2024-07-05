@@ -6,7 +6,7 @@
 
 html {
     /* background: #16193B; */
-    background-image: linear-gradient(to bottom, #16193c, #022164ef);
+    background-image: linear-gradient(to bottom, #16193cf3, #002575f3, #0346d8ef);                      
     color:#E2E5EB;
     line-height: 1.5;
     letter-spacing: 0.1em;
@@ -60,6 +60,7 @@ h1{
     margin-left: 2rem;
     margin-right: 1.5rem;
     font-size: 2rem;
+    text-shadow: 4px 4px 7px black;
 }
 
 .top{
@@ -68,6 +69,7 @@ h1{
     margin-left: 2rem;
     margin-right: 1.5rem;
     font-size: 1.5rem;
+    text-shadow: 4px 4px 9px black;
 }
 
 .main{
@@ -78,6 +80,7 @@ h1{
     margin-block: 0rem;
     padding: 1rem;
     margin-bottom: 5%;
+    text-shadow: 4px 4px 9px black;
 }
 
 p a{
@@ -87,7 +90,8 @@ p a{
     padding: 0.5rem;
     border-radius: 1rem;
     margin-inline: 0rem;
-    margin-block: 0;    
+    margin-block: 0;
+    text-shadow: 4px 4px 9px black;  
 }
 
 p a:hover, li a:focus{
@@ -158,6 +162,7 @@ p{
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 5%;
+    text-shadow: 4px 4px 9px black;
 }
 
 .box{
@@ -182,12 +187,14 @@ p{
     font-size: 3.5rem;
     width: 50%;
     margin-left: 1rem;
+    text-shadow: 4px 4px 7px black;
 }
 
 .p{
     width: 50%;
     margin-left: 1rem;
     font-size: 1.5rem;
+    text-shadow: 4px 4px 10px black;
 }
 
 .picture{
