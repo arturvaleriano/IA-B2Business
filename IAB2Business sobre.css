@@ -1,48 +1,32 @@
-html {
-    background: #16193B;
-    color:#E2E5EB;
-    line-height: 1.5;
-    text-align: justify;
-    letter-spacing: 0.1em;
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    font-size: 1rem;
-    }
+    margin: 0 7%;
+    background-color: #16193cf3;                  
+    color:#eef0f3;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+}
 
-h1 {
+/* Cabeçalho início */
+li{
+    display: inline;
+    margin-inline: 0rem;
+    margin-block: 0rem;
+    padding: 0;
+    color: #E2E5EB;   
+}
+
+li a{
     color: #E2E5EB;
-    border-style: groove;
-    border: 2px solid #02a227ff;
-    border-radius: 10px;
-    width: 50%;
-    padding: 0.2em;
+    text-decoration: none;
 }
 
-div{
-    border: 2px solid #02a227ff;
-    border-radius: 10px;
-    width: 50%;
-    color: #E2E5EB;
+li a:hover, li a:focus{
+    text-decoration: underline;
 }
-
-p{
-    border-style: double;
-    border-color: #02a227ff;
-    border-radius: 10px;
-    width: 50ch;
-    padding: 0.2em;
-    outline: 2.5px solid #174f2bff;
-    outline-offset: 3px;
-}
-
-h2{
-    background-color: #174f2bff;
-    color: #e2e5ebff;
-    width: 40%;
-}
-
+/* Cabeçalho fim */

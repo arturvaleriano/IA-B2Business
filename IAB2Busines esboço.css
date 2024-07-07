@@ -7,25 +7,28 @@
 html {
     /* background: #16193B; */
     background-image: linear-gradient(to bottom, #16193cf3, #002575f3, #0346d8ef);                      
-    color:#E2E5EB;
+    color:#eef0f3;
     line-height: 1.5;
     letter-spacing: 0.1em;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;   
 }
 
+body{
+    margin: 0 7%;
+}
+
 ul{
     list-style-type: none;
-    padding: 0.5rem;
-    text-align: right;
-
+    padding: 0.2rem;
+    text-align: center;
 }
 
 li{
     display: inline;
-    margin-inline: 0.5rem;
+    margin-inline: 0rem;
     margin-block: 0rem;
-    padding: 0;
+    padding: 0;   
 }
 
 li a{
@@ -41,6 +44,7 @@ li a:hover, li a:focus{
     background-color: #02a227;
     padding: 1rem;
     border-radius: 1rem;
+    word-wrap: nowrap;
 }
 
 h1{
@@ -74,7 +78,7 @@ h1{
 
 .main{
     columns: 3 250px;
-    column-rule: 3px solid #fff;
+    /* column-rule: 3px solid #fff; */
     column-gap: 3rem;
     margin-inline: 0.5rem;
     margin-block: 0rem;
@@ -103,7 +107,8 @@ p a:hover, li a:focus{
 }
 
 p{
-    line-height: 2;
+    line-height: 2.5;
+    margin-bottom: 2rem;
 }
 
 .block{
@@ -115,16 +120,17 @@ p{
 }
 
 .left{
-    background-image: url(../imagens/Automacoes\ I.jpg);
+    background-image: url(https://www.contably.com.br/wp-content/uploads/2023/12/GettyImages-1146417905-1-1-1.jpg);
     background-size: cover;
+    background-position: center;
     width: 100%;
     float: left;
-    margin-right: 1rem;
+    margin-right: 0rem;
     margin-bottom: 1rem;
 }
 
 .mid{
-    background-image: url(../imagens/Consultoria.jpg);
+    background-image: url(https://www.resultaconsultoria.com.br/imagens/principal/consultoria-mapeamento-processos-administrativos-estudos-de-viabilidade-gestao-custos-valuation-startup-sao-paulo.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -134,7 +140,7 @@ p{
 }
 
 .right{
-    background-image: url(../imagens/noticias.jpg);
+    background-image: url(https://magalcode.com/wp-content/uploads/2023/06/f31c8927-e46f-4d54-8d66-6a364c23d788.jpeg);
     background-size: cover;
     background-image: center;
     width: 100%;
