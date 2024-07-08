@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/mainContent.css" />
     <link rel="stylesheet" href="./styles/subContent.css" />
+    <link rel="stylesheet" href="./styles/button.css" />
 
     <!--Necessarios -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,12 +26,35 @@
   </head>
   <body>
     <header class="header">
-      <h1>IA-B2Business</h1>
+      <div id="logo_n_phrase">
+        <img
+          src="./resources/images/logo.jpeg"
+          alt="IA-B2Business logo"
+          id="logo"
+          width="120px"
+          height="80px"
+        />
+        <h1 id="letters">
+          <div>I</div>
+          <div>A</div>
+          <div>-</div>
+          <div>B</div>
+          <div>2</div>
+          <div>B</div>
+          <div>u</div>
+          <div>s</div>
+          <div>i</div>
+          <div>n</div>
+          <div>e</div>
+          <div>s</div>
+          <div>s</div>
+        </h1>
+      </div>
       <ul class="nav">
         <li><a href="">Automações</a></li>
+        <li><a href="">Sobre</a></li>
         <li><a href="">Consultoria</a></li>
         <li><a href="">Notícias</a></li>
-        <li class="button_signin"><a href="">Entrar</a></li>
       </ul>
     </header>
 
@@ -50,10 +74,15 @@
               alt="consultoria"
               width="300"
               height="310"
+              class="img_mainContent"
             />
             <figcaption class="caption">
               Produza mais, fazendo menos: Uma nova forma de tornar seu negócio
-              mais eficiente e simples. <a href="">Confira.</a>
+              mais eficiente e simples.
+              <br />
+              <button>
+                <a href="">Confira</a>
+              </button>
             </figcaption>
           </figure>
           <figure id="image_result">
@@ -62,11 +91,15 @@
               alt="consultoria"
               width="300"
               height="310"
+              class="img_mainContent"
             />
             <figcaption class="caption">
               Vista-se para o negócio que você deseja: Soluções inteligentes e
               consultoria personalizada para o seu sucesso!
-              <a href="">Quero uma solução!</a>
+              <br />
+              <button id="want_solution">
+                <a href="">Quero uma solução</a>
+              </button>
             </figcaption>
           </figure>
           <figure id="image_news">
@@ -75,11 +108,15 @@
               alt="notícias"
               width="300"
               height="310"
+              class="img_mainContent"
             />
             <figcaption class="caption">
               Quais as novidades?: As últimas noticias do mercado IA no Brasil e
               no mundo.
-              <span class="nowrap"><a href="">Ir</a></span>
+              <br />
+              <button>
+                <a href="">Ver noticias</a>
+              </button>
             </figcaption>
           </figure>
         </div>
@@ -101,8 +138,16 @@
     <footer class="footer el">
       <h4>IA-B2Business</h4>
       <p>contato: LLconsultoria@gmail.com</p>
-      <p style="text-align: center; font-size: small;">todos os direitos reservados</p>
+      <p style="text-align: center; font-size: small">
+        todos os direitos reservados
+      </p>
     </footer>
+
+    <!-- Scripts nosso -->
+    <script src="./js/index.js"></script>
+    <script src="./js/teste.js"></script>
+
+    <!-- Scripts necessarios do GSAP -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>

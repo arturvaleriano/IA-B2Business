@@ -18,6 +18,10 @@
     justify-content: center;
     margin-top: 5%;
 }
+.img_mainContent {
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem 1rem 0.1rem #0000006e;
+}
 
 figure {
     width: 25%;
@@ -42,4 +46,21 @@ img {
     top: calc(6*var(--margin-default));
     right: var(--margin-default);
     margin-bottom: var(--margin-default);
+}
+
+@media screen and (max-width: 500px) {
+    .images {
+        display: flex;
+        flex-flow: column;
+    }
+    
+#image_contably {
+    position: static;
+}
+#image_result {
+    position: static;
+}
+#image_news {
+    position: static;
+}
 }
