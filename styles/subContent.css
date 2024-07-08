@@ -1,0 +1,9 @@
+.upperbanner {
+    
+}
+
+
+.footer {
+    margin: 50% var(--margin-default) 0 var(--margin-default);
+    writing-mode: horizontal-tb;
+} 

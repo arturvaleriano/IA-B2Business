@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>IA-B2Business</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Artur de Andrade Valeriano" />
+    <meta name="description" content="Grid Layout Class CSS" />
+    <meta http-equiv="x-ua" content="ie-edge" />
+
+    <!--CSS styles para a pagina -->
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/mainContent.css" />
+    <link rel="stylesheet" href="./styles/subContent.css" />
+    <link rel="stylesheet" href="./styles/button.css" />
+    <!--Necessarios -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Scripts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div id="logo_n_phrase">
+        <img
+          src="./resources/images/logo.jpeg"
+          alt="IA-B2Business logo"
+          id="logo"
+          width="120px"
+          height="80px"
+        />
+        <h1 id="letters">
+          <div>I</div>
+          <div>A</div>
+          <div>-</div>
+          <div>B</div>
+          <div>2</div>
+          <div>B</div>
+          <div>u</div>
+          <div>s</div>
+          <div>i</div>
+          <div>n</div>
+          <div>e</div>
+          <div>s</div>
+          <div>s</div>
+        </h1>
+      </div>
+      <ul class="nav">
+        <li><a href="">Automações</a></li>
+        <li><a href="">Sobre</a></li>
+        <li><a href="">Consultoria</a></li>
+        <li><a href="">Notícias</a></li>
+      </ul>
+    </header>
+
+    <main class="container">
+      <section class="box">
+        <h3 id="effect_phrase">
+          Na IA-B2Business automatizamos o ordinário para que seu negócio
+          alcance o extraordinário!
+        </h3>
+        <p id="sub_title">
+          Nosso compromisso é personalizar cada etapa do seu sucesso.
+        </p>
+        <div class="images">
+          <figure id="image_contably">
+            <img
+              src="https://www.idestgestao.com.br/admin/assets/uploads/conteudo_d5ead6d5b09c70330cc839952ea7a2201.jpeg"
+              alt="consultoria"
+              width="300"
+              height="310"
+              class="img_mainContent"
+            />
+            <figcaption class="caption">
+              Produza mais, fazendo menos: Uma nova forma de tornar seu negócio
+              mais eficiente e simples.
+              <br />
+              <button>
+                <a href="">Confira</a>
+              </button>
+            </figcaption>
+          </figure>
+          <figure id="image_result">
+            <img
+              src="https://static.vecteezy.com/ti/vetor-gratis/p1/28134331-ai-robo-chefe-de-cozinha-ilustracao-cozinhando-robo-personagem-vetor.jpg"
+              alt="consultoria"
+              width="300"
+              height="310"
+              class="img_mainContent"
+            />
+            <figcaption class="caption">
+              Vista-se para o negócio que você deseja: Soluções inteligentes e
+              consultoria personalizada para o seu sucesso!
+              <br />
+              <button id="want_solution">
+                <a href="">Quero uma solução</a>
+              </button>
+            </figcaption>
+          </figure>
+          <figure id="image_news">
+            <img
+              src="https://img.freepik.com/vetores-gratis/conceito-de-reportagem-ao-vivo-de-vetor-noticias-ao-vivo-maos-de-jornalistas-com-microfones-e-gravadores_1284-42127.jpg"
+              alt="notícias"
+              width="300"
+              height="310"
+              class="img_mainContent"
+            />
+            <figcaption class="caption">
+              Quais as novidades?: As últimas noticias do mercado IA no Brasil e
+              no mundo.
+              <br />
+              <button>
+                <a href="">Ver noticias</a>
+              </button>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <!-- <section class="upperbanner">
+        <p>A melhor consultoria focada em automações no Brasil!</p>
+        <p>Reconhecida pelas maiores startups do mercado</p>
+      </section>
+      <section class="banner">
+        <div class="box one"><p>1</p></div>
+        <div class="box two"><p>2</p></div>
+        <div class="box three"><p>3</p></div>
+        <div class="box four"><p>4</p></div>
+        <div class="box five"><p>5</p></div>
+      </section> -->
+    </main>
+
+    <!-- <aside class="sidebar el"><h2>Sidebar</h2></aside> -->
+    <footer class="footer el">
+      <h4>IA-B2Business</h4>
+      <p>contato: LLconsultoria@gmail.com</p>
+      <p style="text-align: center; font-size: small">
+        todos os direitos reservados
+      </p>
+    </footer>
+
+    <!-- Scripts nosso -->
+    <script src="./js/index.js"></script>
+    <script src="./js/teste.js"></script>
+
+    <!-- Scripts necessarios do GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/PixiPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+  </body>
+</html>
