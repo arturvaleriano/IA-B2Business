@@ -1,0 +1,14 @@
+a span {
+    font-size: 100px;
+    font-style: oblique;
+    animation: standOut 100ms infinite alternate;
+}
+
+@keyframes standOut {
+    from {
+        font-size: inherit;
+    }
+    to {
+        font-size: medium;
+    }
+}

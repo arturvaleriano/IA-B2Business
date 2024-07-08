@@ -8,22 +8,10 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     color:#ffffff;
-    animation: bodyAnimation 1s infinite alternate;
-    line-height: 1.5;
-    letter-spacing: 0.1em;
     font-family: "Nunito", sans-serif;
     overflow-x: hidden;
     background-image:  linear-gradient(to right, #160438, #20162c);
 }
-
-/* @keyframes bodyAnimation {
-    from {
-        background-color: #0b501f;
-    }
-    to {
-        background-color: #1e1361;
-    }
-} */
 
 :root {
     --margin-default: 12%;

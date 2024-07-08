@@ -1,5 +1,7 @@
 .container{
     margin-top: 7rem;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
 }
 
 #effect_phrase {
