@@ -1,5 +1,5 @@
-button {
-    background-color: #4cac14;
+.button {
+    background-color: var(--green);
     padding: 0.5rem;
     border-style: none;
     border-radius: 0.5rem; 
@@ -7,15 +7,23 @@ button {
     width: 6rem;
 }
 
+#news {
+    width: 8rem;
+}
+
+#news:hover {
+    width: 10rem;
+}
+
 #want_solution {
-    width: 9rem;
+    width: 12rem;
     transition: width 100ms linear;
 }
 
 #want_solution:hover {
-    width: 11rem;
+    width: 14rem;
 }
 
-button:hover {
+.button:hover {
     width: 8rem;
 }

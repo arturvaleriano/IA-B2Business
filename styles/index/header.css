@@ -43,9 +43,3 @@ a {
     text-decoration: none;
     text-wrap: nowrap;
 }
-
-.button_signin{
-    background-color: #4cac14;
-    padding: 0.5rem;
-    border-radius: 1rem;
-}

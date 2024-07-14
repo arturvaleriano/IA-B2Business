@@ -1,14 +1,15 @@
-a span {
-    font-size: 100px;
-    font-style: oblique;
-    animation: standOut 100ms infinite alternate;
+li > a {
+  padding: 0 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.5s ease-out, background-color 0.5s ease-out;
+  border-radius: 0.5rem;
 }
 
-@keyframes standOut {
-    from {
-        font-size: inherit;
-    }
-    to {
-        font-size: medium;
-    }
+li > a:hover {
+  background-position: left bottom;
+  background-color: var(--green);
 }

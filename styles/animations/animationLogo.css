@@ -1,19 +1,19 @@
 #letters div {
     animation: colorAnimation 3s infinite alternate;
-    color: #82c52a;
+    color: var(--yellow);
     font-size: 35px;
     font-weight: bolder;
 }
 
 @keyframes colorAnimation {
     0% {
-        color: #82c52a;
+        color: var(--yellow);
     }
     50% {
-        color: #129b12;
+        color: var(--green);
     }
     100% {
-        color: #0ac571;
+        color: var(--light-green);
     }
 }
 

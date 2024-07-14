@@ -10,9 +10,17 @@ body {
     color:#ffffff;
     font-family: "Nunito", sans-serif;
     overflow-x: hidden;
-    background-image:  linear-gradient(to right, #160438, #20162c);
+    background-image:  linear-gradient(to right, var(--bright-purple), var(--dark-purple));
 }
 
 :root {
     --margin-default: 12%;
+    --green: #129b12;
+    --yellow: #82c52a;
+    --light-green: #0ac571;
+    --bright-purple: #160438;
+    --dark-purple: #20162c;
+    --purple: #181833;
+    --mid-purple: #2f1c63;
+    --light-purple: #49206e;
 }
