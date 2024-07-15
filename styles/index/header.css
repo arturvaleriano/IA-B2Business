@@ -9,7 +9,7 @@
     right: 0;
     left: 0;
     min-height: 5rem;
-    z-index: 1000;
+    z-index: 2;
 }
 
 #logo_n_phrase{
@@ -36,10 +36,4 @@
 
 li {
     margin: auto 1rem;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    text-wrap: nowrap;
 }

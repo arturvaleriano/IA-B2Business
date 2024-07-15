@@ -41,11 +41,11 @@ img {
 }
 #image_result {
     position: absolute;
-    top: calc(4.3*var(--margin-default));
+    top: calc(4*var(--margin-default));
 }
 #image_news {
     position: absolute;
-    top: calc(6*var(--margin-default));
+    top: calc(5.3*var(--margin-default));
     right: var(--margin-default);
     margin-bottom: var(--margin-default);
 }
