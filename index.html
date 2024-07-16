@@ -10,11 +10,16 @@
     <meta http-equiv="x-ua" content="ie-edge" />
 
     <!--CSS styles para a pagina -->
-    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/index/header.css" />
     <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="./styles/mainContent.css" />
-    <link rel="stylesheet" href="./styles/subContent.css" />
-    <link rel="stylesheet" href="./styles/button.css" />
+    <link rel="stylesheet" href="./styles/index/mainContent.css" />
+    <link rel="stylesheet" href="./styles/index/subContent.css" />
+    <link rel="stylesheet" href="./styles/components/button.css" />
+    <link rel="stylesheet" href="./styles/animations/animationLogo.css" />
+    <link rel="stylesheet" href="./styles/animations/animationNav.css" />
+    <link rel="stylesheet" href="./styles/components/modalPopup.css" />
+    <link rel="stylesheet" href="./styles/components/input.css" />
+    <link rel="stylesheet" href="./styles/components/link_a.css" />
     <!--Necessarios -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,6 +27,12 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
     <!-- Scripts -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -52,10 +63,18 @@
         </h1>
       </div>
       <ul class="nav">
-        <li><a href="">Automações</a></li>
-        <li><a href="">Sobre</a></li>
-        <li><a href="">Consultoria</a></li>
-        <li><a href="">Notícias</a></li>
+        <li>
+          <a> Automações </a>
+        </li>
+        <li>
+          <a > Sobre </a>
+        </li>
+        <li>
+          <a id="consultoria"> Consultoria </a>
+        </li>
+        <li>
+          <a> Noticias </a>
+        </li>
       </ul>
     </header>
 
@@ -81,7 +100,7 @@
               Produza mais, fazendo menos: Uma nova forma de tornar seu negócio
               mais eficiente e simples.
               <br />
-              <button>
+              <button class="button">
                 <a href="">Confira</a>
               </button>
             </figcaption>
@@ -98,7 +117,7 @@
               Vista-se para o negócio que você deseja: Soluções inteligentes e
               consultoria personalizada para o seu sucesso!
               <br />
-              <button id="want_solution">
+              <button id="want_solution" class="button">
                 <a href="">Quero uma solução</a>
               </button>
             </figcaption>
@@ -115,24 +134,13 @@
               Quais as novidades?: As últimas noticias do mercado IA no Brasil e
               no mundo.
               <br />
-              <button>
+              <button id="news" class="button">
                 <a href="">Ver noticias</a>
               </button>
             </figcaption>
           </figure>
         </div>
       </section>
-      <!-- <section class="upperbanner">
-        <p>A melhor consultoria focada em automações no Brasil!</p>
-        <p>Reconhecida pelas maiores startups do mercado</p>
-      </section>
-      <section class="banner">
-        <div class="box one"><p>1</p></div>
-        <div class="box two"><p>2</p></div>
-        <div class="box three"><p>3</p></div>
-        <div class="box four"><p>4</p></div>
-        <div class="box five"><p>5</p></div>
-      </section> -->
     </main>
 
     <!-- <aside class="sidebar el"><h2>Sidebar</h2></aside> -->
@@ -144,9 +152,98 @@
       </p>
     </footer>
 
+    <!-- MODAL POP UP -->
+
+    <form id="form-data" name="form-data" method="post">
+      <div class="content">
+        <div class="form-content">
+          <label for="firstName"
+            >Nome: <span style="color: red"> * </span></label
+          >
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="Nome"
+            autocomplete="on"
+            required
+          />
+        </div>
+        <div class="form-content">
+          <label for="lastName"
+            >Sobrenome: <span style="color: red"> * </span></label
+          >
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Sobrenome"
+            autocomplete="on"
+            required
+          />
+        </div>
+        <div class="form-content">
+          <label for="phone"
+            >Telefone: <span style="color: red"> * </span></label
+          >
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="+5511912345678"
+            autocomplete="on"
+            required
+          />
+        </div>
+        <div class="form-content">
+          <label for="email">Email: <span style="color: red"> * </span></label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="email@email.com"
+            pattern=".*@.*\.com"
+            autocomplete="on"
+            required
+            onchange="validateEmail(event)"
+          />
+        </div>
+        <div class="form-content">
+          <label for="companyName"
+            >Nome da Empresa: <span style="color: red"> * </span></label
+          >
+          <input
+            type="text"
+            name="companyName"
+            id="companyName"
+            placeholder="Nome da empresa"
+            autocomplete="on"
+            required
+          />
+        </div>
+        <div class="form-content">
+          <label for="description"
+            >Descreva seus desafios: <span style="color: red"> * </span></label
+          >
+          <textarea
+            name="description"
+            id="description"
+            placeholder="Descreva seus desafios aqui"
+            style="resize: none;"
+          ></textarea>
+        </div>
+        <div id="buttons">
+          <button id="cancel" class="button danger">Cancelar</button>
+          <button type="submit" id="send" class="button" >Enviar</button>
+        </div>
+      </div>
+    </form>
+
     <!-- Scripts nosso -->
-    <script src="./js/index.js"></script>
-    <script src="./js/teste.js"></script>
+    <script src="./js/utils/validateInput.js"></script>
+    <script src="./js/models/userRequest.js"></script>
+    <script src="./js/controllers/sendEmail.js"></script>
+    <script src="./js/utils/fadeInOut.js"></script>
 
     <!-- Scripts necessarios do GSAP -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>

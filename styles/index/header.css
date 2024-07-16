@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right, #181833, #2f1c63, #49206e);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    min-height: 5rem;
+    z-index: 2;
+}
+
+#logo_n_phrase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo {
+    clip-path: circle(2.5rem at 53% 50%);
+}
+
+#letters {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    margin: auto 1rem;
+}

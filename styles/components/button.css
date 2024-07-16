@@ -1,0 +1,33 @@
+.button {
+    background-color: var(--green);
+    padding: 0.5rem;
+    border-style: none;
+    border-radius: var(--radius-default); 
+    transition: width 100ms linear;
+    width: 6rem;
+}
+
+.danger {
+    background-color: var(--danger);
+}
+
+#news {
+    width: 8rem;
+}
+
+#news:hover {
+    width: 10rem;
+}
+
+#want_solution {
+    width: 12rem;
+    transition: width 100ms linear;
+}
+
+#want_solution:hover {
+    width: 14rem;
+}
+
+.button:hover {
+    width: 8rem;
+}
