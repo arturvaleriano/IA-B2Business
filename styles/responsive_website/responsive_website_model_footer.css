@@ -1,0 +1,14 @@
+ /* Footer */
+ .footer {
+    padding: 20px;
+    text-align: center;
+    /* background: #ddd; */
+    margin-top: 20px;
+    margin: 50% var(--margin-default) 0 var(--margin-default);
+    writing-mode: horizontal-tb;
+  }
+
+/*   .footer {
+    margin: 50% var(--margin-default) 0 var(--margin-default);
+    writing-mode: horizontal-tb;
+}  */
