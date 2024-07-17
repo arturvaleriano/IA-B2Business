@@ -33,38 +33,46 @@
   </head>
 <body>
 	<!-- Header -->
-    <header class="header">
-      <div id="logo_n_phrase">
-        <img
-          src="./resources/images/logo.jpeg"
-          alt="IA-B2Business logo"
-          id="logo"
-          width="120px"
-          height="80px"
-        />
-        <h1 id="letters">
-          <div>I</div>
-          <div>A</div>
-          <div>-</div>
-          <div>B</div>
-          <div>2</div>
-          <div>B</div>
-          <div>u</div>
-          <div>s</div>
-          <div>i</div>
-          <div>n</div>
-          <div>e</div>
-          <div>s</div>
-          <div>s</div>
-        </h1>
-      </div>
-      <ul class="nav">
-        <li><a href="">Início</a></li>
-        <li><a href="">Sobre</a></li>
-        <li><a href="">Consultoria</a></li>
-        <li><a href="">Notícias</a></li>
-      </ul>
-    </header>
+  <header class="header">
+    <div id="logo_n_phrase">
+      <img
+        src="./resources/images/logo.jpeg"
+        alt="IA-B2Business logo"
+        id="logo"
+        width="120px"
+        height="80px"
+      />
+      <h1 id="letters">
+        <div>I</div>
+        <div>A</div>
+        <div>-</div>
+        <div>B</div>
+        <div>2</div>
+        <div>B</div>
+        <div>u</div>
+        <div>s</div>
+        <div>i</div>
+        <div>n</div>
+        <div>e</div>
+        <div>s</div>
+        <div>s</div>
+      </h1>
+    </div>
+    <ul class="nav">
+      <li>
+        <a> Automações </a>
+      </li>
+      <li>
+        <a > Sobre </a>
+      </li>
+      <li>
+        <a id="consultoria"> Consultoria </a>
+      </li>
+      <li>
+        <a> Noticias </a>
+      </li>
+    </ul>
+  </header>
 <!-- Header -->
  <!-- Main -->
     <!-- Apresentação Início -->
@@ -87,31 +95,26 @@
     <br>
     <p>Perfeito para te ajudar a organizar um grande volume de solicitações de maneira fácil, prática e funcional. Reuniões, consultorias e muito mais sendo organizado para você não se preocupar com atividades repetitivas. Confira!</p>
   </div>
-  
   <div class="column">
     <h2>Captador de Leads Qualificados</h2>
     <br>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
   </div>
-  <br>
   <div class="column">
     <h2>Assistente de Suporte ao Cliente</h2>
     <br>
     <p>Dúvidas básicas, orientações simples, interações rápidas e objetivas. Um assistente que te permite prestar a ajuda que seu cliente realmente precisa. Saiba mais.</p>
   </div>
-  <br>
   <div class="column">
     <h2>Assistente de Agendamentos</h2>
     <br>
     <p>Perfeito para te ajudar a organizar um grande volume de solicitações de maneira fácil, prática e funcional. Reuniões, consultorias e muito mais sendo organizado para você não se preocupar com atividades repetitivas. Confira!</p>
   </div>
-  <br>
   <div class="column">
     <h2>Captador de Leads Qualificados</h2>
     <br>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
   </div>
-  <br>
   <div class="column">
     <h2>Assistente de Suporte ao Cliente</h2>
     <br>
@@ -128,5 +131,111 @@
 	</p>
   </footer>
  <!-- Footer -->
+  <!-- MODAL POP UP -->
+
+  <form id="form-data" name="form-data" method="post">
+    <div class="content">
+      <div class="form-content">
+        <label for="firstName"
+          >Nome: <span style="color: red"> * </span></label
+        >
+        <input
+          type="text"
+          name="firstName"
+          id="firstName"
+          placeholder="Nome"
+          autocomplete="on"
+          required
+        />
+      </div>
+      <div class="form-content">
+        <label for="lastName"
+          >Sobrenome: <span style="color: red"> * </span></label
+        >
+        <input
+          type="text"
+          name="lastName"
+          id="lastName"
+          placeholder="Sobrenome"
+          autocomplete="on"
+          required
+        />
+      </div>
+      <div class="form-content">
+        <label for="phone"
+          >Telefone: <span style="color: red"> * </span> (WhatsApp)</label
+        >
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="(11) 91234-5678"
+          autocomplete="on"
+          required
+        />
+      </div>
+      <div class="form-content">
+        <label for="email">Email: <span style="color: red"> * </span></label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="email@email.com"
+          pattern=".*@.*\.com"
+          autocomplete="on"
+          required
+        />
+      </div>
+      <div class="form-content">
+        <label for="companyName"
+          >Nome da Empresa: <span style="color: red"> * </span></label
+        >
+        <input
+          type="text"
+          name="companyName"
+          id="companyName"
+          placeholder="Nome da empresa"
+          autocomplete="on"
+          required
+        />
+      </div>
+      <div class="form-content">
+        <label for="description"
+          >Descreva seus desafios: <span style="color: red"> * </span></label
+        >
+        <textarea
+          name="description"
+          id="description"
+          placeholder="Descreva seus desafios aqui"
+          style="resize: none;"
+        ></textarea>
+      </div>
+      <div id="buttons">
+        <button id="cancel" class="button danger">Cancelar</button>
+        <button type="submit" id="send" class="button" >Enviar</button>
+      </div>
+    </div>
+  </form>
+
+  <!-- Scripts nosso -->
+  <script src="./js/utils/validateInput.js"></script>
+  <script src="./js/models/userRequest.js"></script>
+  <script src="./js/controllers/sendEmail.js"></script>
+  <script src="./js/utils/fadeInOut.js"></script>
+
+  <!-- Scripts necessarios do GSAP -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/PixiPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
 </body>
 </html>

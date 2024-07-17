@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", ()=>{
     function toggleModal(event){
         event.preventDefault();
+        console.log("cancelando");
         const modal = document.getElementById("form-data");
         modal.classList.toggle("show");
         document.querySelector("body").classList.toggle("stopScrolling");
