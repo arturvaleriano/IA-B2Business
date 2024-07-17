@@ -37,6 +37,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
+    <div class="toast" id="toast"></div>
     <header class="header">
       <div id="logo_n_phrase">
         <img
@@ -184,13 +185,13 @@
         </div>
         <div class="form-content">
           <label for="phone"
-            >Telefone: <span style="color: red"> * </span></label
+            >Telefone: <span style="color: red"> * </span> (WhatsApp)</label
           >
           <input
             type="tel"
             name="phone"
             id="phone"
-            placeholder="+5511912345678"
+            placeholder="(11) 91234-5678"
             autocomplete="on"
             required
           />
@@ -205,7 +206,6 @@
             pattern=".*@.*\.com"
             autocomplete="on"
             required
-            onchange="validateEmail(event)"
           />
         </div>
         <div class="form-content">
