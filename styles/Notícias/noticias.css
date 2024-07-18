@@ -1,0 +1,25 @@
+.container{
+    margin-top: 7rem;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+}
+
+#effect_phrase {
+    text-align: center;
+    margin: 10% 4% 0% 6%;
+    font-size: 160%;
+    object-position: top;
+}
+
+#sub_title {
+    text-align: center;
+    margin: 1% 4% 0% 6%;
+    font-size: 110%;
+}
+
+/* .box{
+    border: 3px solid green;
+    border-radius: 15%;
+    text-align: top;
+    object-position: top;
+} */
