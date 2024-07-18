@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_mx-auto_px-6_py-8{
+    margin: 3% 4% 3% 3%;
+    color: white;
+}
+
+
+
+.category-btn{
+    margin-bottom: 2%;
+    padding: 1em;
+    /* box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.616); */
+    transition: padding .25s ease-in-out, background-color .25s ease-in-out;
+}
+.category-btn:hover{
+    background-color: #057226;
+    padding: 1.2em;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

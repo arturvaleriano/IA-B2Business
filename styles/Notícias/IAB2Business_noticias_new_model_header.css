@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.bg-white_shadow{
+    background-image: linear-gradient(
+      to right,
+      var(--bright-purple),
+      var(--dark-purple)
+    );
+}
+
+.text-xl_font-bold{
+    color: white;
+    font-size: 180%;
+    font-weight: 800;
+}
+
+.text-gray-600{
+    color: white;
+    font-size: 100%;
+    background-color: #027a16;
+    padding: .8em;
+    border-radius: 5px;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.616);
+    transition: padding .3s ease-in-out, transform .3s ease-in-out;
+}
+
+.text-gray-600:hover{
+    background-color: #027a16;
+    color: white;
+    font-size: 105%;
+    padding: .95em;
+    transform: scale(1.05);
+    cursor: pointer;
+}

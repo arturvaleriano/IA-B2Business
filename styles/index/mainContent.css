@@ -6,10 +6,14 @@
 
 #effect_phrase {
     text-align: center;
+    margin: 12% 4% 0% 6%;
+    font-size: 160%;
     /* margin: auto var(--margin-default); */
 }
 #sub_title {
     text-align: center;
+    margin: 1% 4% 0% 6%;
+    font-size: 110%;
     /* margin: auto var(--margin-default); */
 }
 
@@ -37,15 +41,15 @@ img {
 
 #image_contably {
     position: absolute;
-    left: 13%;
+    left: 10%;
 }
 #image_result {
     position: absolute;
-    top: calc(4*var(--margin-default));
+    top: calc(5*var(--margin-default));
 }
 #image_news {
     position: absolute;
-    top: calc(5.3*var(--margin-default));
+    top: calc(6.3*var(--margin-default));
     right: var(--margin-default);
     margin-bottom: var(--margin-default);
 }

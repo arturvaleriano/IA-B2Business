@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Notícias de Tecnologia</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <!-- CSS Styles para a página -->
+    <link rel="stylesheet" href="./styles/Notícias/IAB2Business_noticias_new_model_body.css">
+    <link rel="stylesheet" href="./styles/Notícias/IAB2Business_noticias_new_model_header.css">
+    <link rel="stylesheet" href="./styles/Notícias/IAB2Business_noticias_new_model_corpo.css">
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Barra de navegação Início -->
+    <header class="bg-white_shadow">
+        <nav class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-xl_font-bold">IA-B2Business</a>
+                <div class="space-x-4">
+                    <a href="#" class="text-gray-600">Início</a>
+                    <a href="#" class="text-gray-600">Automações</a>
+                    <a href="#" class="text-gray-600">Consultoria</a>
+                    <a href="#" class="text-gray-600">Sobre</a>
+                </div>
+                <div class="search-bar my-4">
+                    <input type="text" id="searchInput" class="w-full border rounded p-2" placeholder="Buscar notícias...">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Barra de navegação Fim -->
+
+    <!-- Corpo do site Início -->
+    <main class="container_mx-auto_px-6_py-8">
+        <div class="categories_my-4">
+            <button class="category-btn" data-category="AI">Inteligência Artificial</button>
+            <button class="category-btn" data-category="Events">Eventos</button>
+            <button class="category-btn" data-category="Innovation">Inovações</button>
+        </div>
+        <section>
+            <h1 class="text-3xl font-bold mb-6">Últimas Notícias</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Exemplo de Cartão de Notícia -->
+                <article class="bg-white rounded-lg shadow p-4">
+                    <img src="../imagens/noticias.jpg" alt="Notícia Imagem" class="w-full h-48 object-cover rounded">
+                    <h2 class="text-xl font-bold mt-4">Título da Notícia</h2>
+                    <p class="text-gray-700 mt-2">Resumo da notícia...</p>
+                    <a href="#" class="text-blue-500 mt-4 block">Leia mais</a>
+                </article>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Exemplo de Cartão de Notícia -->
+                <article class="bg-white rounded-lg shadow p-4">
+                    <img src="image-url.jpg" alt="Notícia Imagem" class="w-full h-48 object-cover rounded">
+                    <h2 class="text-xl font-bold mt-4">Título da Notícia</h2>
+                    <p class="text-gray-700 mt-2">Resumo da notícia...</p>
+                    <a href="#" class="text-blue-500 mt-4 block">Leia mais</a>
+                </article>
+                <!-- Repita para mais cartões de notícias -->
+            </div>
+            <div id="newsContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Notícias serão carregadas aqui -->
+            </div>
+        </section>
+        <section class="comments mt-8">
+            <h3 class="text-2xl font-bold mb-4">Comentários</h3>
+            <div class="comment-form">
+                <textarea id="comment" class="w-full border rounded p-2" placeholder="Adicione um comentário..."></textarea>
+                <button id="submitComment" class="bg-blue-500 text-white px-4 py-2 mt-2 rounded">Enviar</button>
+            </div>
+            <div id="commentsList" class="mt-6">
+                <!-- Comentários serão inseridos aqui -->
+            </div>
+        </section>
+        <section class="subscribe mt-8">
+            <h3 class="text-2xl font-bold mb-4">Inscreva-se para receber novidades</h3>
+            <div class="subscribe-form">
+                <input type="email" id="subscribeEmail" class="w-full border rounded p-2" placeholder="Seu e-mail">
+                <button id="subscribeButton" class="bg-blue-500 text-white px-4 py-2 mt-2 rounded">Inscrever-se</button>
+            </div>
+        </section>
+    </main>
+    <!-- Corpo do site Fim -->
+
+    <!-- Rodapé do site Início -->
+    <footer class="bg-white shadow mt-12">
+        <div class="container mx-auto px-6 py-4 text-center">
+            <p class="text-gray-600">&copy; 2024 Tech News. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <!-- Rodapé do site Início -->
+
+</body>
+</html>
