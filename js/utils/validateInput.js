@@ -34,12 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
           : phone;
       event.target.value = phone;
     });
-    if (phone.match(/\(\d{2}\)\s\d{5}-\d{4}\d+/)) {
-      event.target.value = phone.replace(
-        /(\(\d{2}\))\s(\d{5}-)(\d{4})\d+/,
-        "$1 $2$3"
-      );
-    }
   }
 
   function isPhoneValid(event) {

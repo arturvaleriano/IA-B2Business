@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function sendEmail(event) {
     event.preventDefault();
-    
+
     const formData = new FormData(form);
     formData.forEach((value, key) => {
       userRequest[key] = value;

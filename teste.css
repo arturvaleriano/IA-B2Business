@@ -43,6 +43,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    transition: background-color .3s ease-in-out, padding .3s ease-in-out;
 }
 
 nav ul li a:hover, a:active{
@@ -57,7 +58,6 @@ nav ul li a:hover, a:active{
         display: inline;
         font-size: 16px;
         margin: 4px 2px;
-        transition-duration: 1s;
         cursor: pointer;
         
 }
@@ -82,19 +82,15 @@ section#home {
     border-radius: 5px;
     box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.616);
     width: 80%;
+    transition: transform .3s ease-in-out;
 }
 
 .curso:hover{
     background-color: #3f4442; /* Green */
     border: none;
     color: white;
-    padding: 1.5em 3em;
-    text-align: left;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 1em 2em;
-    transition-duration: 1s;
+    transform: scale(1.05);
     cursor: pointer;
 }
 
@@ -155,5 +151,5 @@ footer {
 }
 
 @media screen and (min-width: 481px) {
-    // CSS rules
+     /* CSS rules */
 }
