@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./styles/components/modalPopup.css" />
     <link rel="stylesheet" href="./styles/components/input.css" />
     <link rel="stylesheet" href="./styles/components/link_a.css" />
+    <link rel="stylesheet" href="./styles/animations/toastMessage.css" />
     <!--Necessarios -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -193,6 +194,7 @@
             id="phone"
             placeholder="(11) 91234-5678"
             autocomplete="on"
+            pattern="\(\d{2}\)\s\d{5}-\d{4}"
             required
           />
         </div>
@@ -244,6 +246,9 @@
     <script src="./js/models/userRequest.js"></script>
     <script src="./js/controllers/sendEmail.js"></script>
     <script src="./js/utils/fadeInOut.js"></script>
+    <script src="./js/factory/toastMessage.js"></script>
+    <script src="./js/utils/constants.js"></script>
+    <script src="./js/models/modelColors.js"></script>
 
     <!-- SMTP EMAIL -->
     <script src="https://unpkg.com/smtp.js/dist/smtp.min.js"></script>
