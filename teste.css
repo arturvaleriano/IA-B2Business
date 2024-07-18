@@ -43,7 +43,8 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    transition: background-color .3s ease-in-out, padding .3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out;
+
 }
 
 nav ul li a:hover, a:active{
@@ -78,19 +79,22 @@ section#home {
 .curso {
     background-color: #999898;
     padding: 1.5em;
-    margin: 1em 0em 1em 0em;
+    margin: 1em 0em;
     border-radius: 5px;
     box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.616);
     width: 80%;
-    transition: transform .3s ease-in-out;
+    transition: margin-left .3s ease-in-out, transform .3s ease-in-out;
 }
 
 .curso:hover{
     background-color: #3f4442; /* Green */
     border: none;
     color: white;
-    text-decoration: none;
+   /*  padding: 1.5em 3em; */
+    /* display: inline-block; */
+    font-size: 16px;
     transform: scale(1.05);
+    margin-left: 1em;
     cursor: pointer;
 }
 

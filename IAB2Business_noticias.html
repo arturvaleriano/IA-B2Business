@@ -1,30 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Consultoria</title>
+  <head>
+    <title>IA-B2Business</title>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS Styles -->
-    <link rel="stylesheet" href="../IAB2Business/styles/consultoria/consultoria.css">
-    <link rel="stylesheet" href="../IAB2Business/styles/header.css "/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Artur de Andrade Valeriano" />
+    <meta name="description" content="Grid Layout Class CSS" />
+    <meta http-equiv="x-ua" content="ie-edge" />
+
+    <!--CSS styles para a pagina -->
+    <link rel="stylesheet" href="./styles/index/header.css" />
     <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="../IAB2Business/styles/mainContent.css" />
-    <link rel="stylesheet" href="./styles/subContent.css" />
-    <!-- Necessarios -->   
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/index/mainContent.css" />
+    <!-- <link rel="stylesheet" href="./styles/index/subContent.css" /> -->
+     <!-- <link rel="stylesheet" href="./styles/Notícias/noticias.css"> -->
+    <link rel="stylesheet" href="./styles/components/button.css" />
+    <link rel="stylesheet" href="./styles/animations/animationLogo.css" />
+    <link rel="stylesheet" href="./styles/animations/animationNav.css" />
+    <link rel="stylesheet" href="./styles/components/modalPopup.css" />
+    <link rel="stylesheet" href="./styles/components/input.css" />
+    <link rel="stylesheet" href="./styles/components/link_a.css" />
+    <!--Necessarios -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
+    <!-- Scripts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
     <header class="header">
-        <h1 class="text-3xl font-bold">
-          IA-B2Business
+      <div id="logo_n_phrase">
+        <img
+          src="./resources/images/logo.jpeg"
+          alt="IA-B2Business logo"
+          id="logo"
+          width="120px"
+          height="80px"
+        />
+        <h1 id="letters">
+          <div>I</div>
+          <div>A</div>
+          <div>-</div>
+          <div>B</div>
+          <div>2</div>
+          <div>B</div>
+          <div>u</div>
+          <div>s</div>
+          <div>i</div>
+          <div>n</div>
+          <div>e</div>
+          <div>s</div>
+          <div>s</div>
         </h1>
-        <ul class="nav">
-          <li><a href="">Automações</a></li>
-          <li><a href="">Consultoria</a></li>
-          <li><a href="">Sobre</a></li>
-          <li><a href="">Início</a></li>
-          
-        </ul>
+      </div>
+      <ul class="nav">
+        <li>
+          <a> Início </a>
+        </li>
+        <li>
+          <a > Automações </a>
+        </li>
+        <li>
+          <a id="consultoria"> Consultoria </a>
+        </li>
+        <li>
+          <a> Sobre </a>
+        </li>
+      </ul>
     </header>
     <!-- Header -->
      <!-- Main -->
@@ -32,27 +84,28 @@
         <main class="container">
           <section class="box">
             <h3 id="effect_phrase">
-              A IA-B2Business veio para provar que menos é mais! Com automações todo seu negócio se torna eficiente e inteligênte.
+              Seu negócio sempre atualizado com as informações mais relevantes do mercado de IA
             </h3>
             <br>
             <p id="sub_title">
-              Confira nosso portifólio de automações criadas para as mais diversas aplicações e atividades das mais diversas áreas de sua empresa
+              As últimas notícias do Brasil e do mundo sobre o mercado de tecnologia, inteligência artifical e mais.
             </p>
+          </section>
       <!-- Apresentação Fim -->
     
     <div class="row">
       <div class="column">
-        <h2>Column</h2>
+        <h2>Notícia 1</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
       </div>
       
       <div class="column">
-        <h2>Column</h2>
+        <h2>Notícia 2</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
       </div>
       
       <div class="column">
-        <h2>Column</h2>
+        <h2>Notícia 3</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
       </div>
     </div>
