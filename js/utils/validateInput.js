@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
       !event.target.value.match(/\w+@[a-zA-Z]{1,}.br/) &&
       !event.target.value.match(/\w+@[a-zA-Z]{1,}.com/)
     ) {
-      console.log("Email is invalid");
       //send toast error message
       sendToastMessage(
         `Email inserido está invalido. Por favor verifique e tente novamente`,
@@ -48,7 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
   function isPhoneValid(event) {
     if (!isPhoneMatch(event.target.value)) {
       //send toast error message
-      console.log("the format phone isnt matching!");
       sendToastMessage(
         `Numero de WhatsApp está invalido. Por favor, verifique e tente novamente!`,
         "#form-data",

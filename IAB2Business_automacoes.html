@@ -9,6 +9,9 @@
     <meta name="description" content="Grid Layout Class CSS" />
     <meta http-equiv="x-ua" content="ie-edge" />
 
+    <!-- PAGE ICON B2BUSINESS -->
+    <link rel="icon" type="image/x-icon" href="./resources/images/logo.jpeg">
+
     <!--CSS styles para a pagina -->
     <link rel="stylesheet" href="./styles/index/header.css" />
     <link rel="stylesheet" href="./styles/index/mainContent.css" />
@@ -20,7 +23,8 @@
     <link rel="stylesheet" href="./styles/components/modalPopup.css" />
     <link rel="stylesheet" href="./styles/animations/animationLogo.css" />
     <link rel="stylesheet" href="./styles/animations/animationNav.css" />
-    <link rel="stylesheet" href="./styles/IAB2Business_automacoes.css">
+    <link rel="stylesheet" href="./styles/IAB2Business_automacoes.css" />
+    <link rel="stylesheet" href="./styles/animations/toastMessage.css" />
     <!--Necessarios -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,254 +35,309 @@
     <!-- Scripts -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-<body>
-	<!-- Header -->
-  <header class="header">
-    <div id="logo_n_phrase">
-      <img
-        src="./resources/images/logo.jpeg"
-        alt="IA-B2Business logo"
-        id="logo"
-        width="120px"
-        height="80px"
-      />
-      <h1 id="letters">
-        <div>I</div>
-        <div>A</div>
-        <div>-</div>
-        <div>B</div>
-        <div>2</div>
-        <div>B</div>
-        <div>u</div>
-        <div>s</div>
-        <div>i</div>
-        <div>n</div>
-        <div>e</div>
-        <div>s</div>
-        <div>s</div>
-      </h1>
-    </div>
-    <ul class="nav">
-      <li>
-        <a> Início </a>
-      </li>
-      <li>
-        <a > Sobre </a>
-      </li>
-      <li>
-        <a id="consultoria"> Consultoria </a>
-      </li>
-      <li>
-        <a> Noticias </a>
-      </li>
-    </ul>
-  </header>
-<!-- Header -->
- <!-- Main -->
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div id="logo_n_phrase">
+        <img
+          src="./resources/images/logo.jpeg"
+          alt="IA-B2Business logo"
+          id="logo"
+          width="120px"
+          height="80px"
+        />
+        <h1 id="letters">
+          <div>I</div>
+          <div>A</div>
+          <div>-</div>
+          <div>B</div>
+          <div>2</div>
+          <div>B</div>
+          <div>u</div>
+          <div>s</div>
+          <div>i</div>
+          <div>n</div>
+          <div>e</div>
+          <div>s</div>
+          <div>s</div>
+        </h1>
+      </div>
+      <ul class="nav">
+        <li>
+          <a href="./index.html"> Inicio </a>
+        </li>
+        <li>
+          <a href="./IAB2Business_sobre.html"> Sobre </a>
+        </li>
+        <li>
+          <a id="consultoria"> Consultoria </a>
+        </li>
+        <li>
+          <a href="./IAB2Business_noticias.html"> Noticias </a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- Header -->
+    <!-- Main -->
     <!-- Apresentação Início -->
     <main class="container">
       <section class="box">
         <h3 id="effect_phrase">
-          A IA-B2Business veio para provar que menos é mais! Com automações todo seu negócio se torna eficiente e inteligênte.
+          A IA-B2Business veio para provar que menos é mais! Com automações todo
+          seu negócio se torna eficiente e inteligênte.
         </h3>
-        <br>
+        <br />
         <p id="sub_title">
-          Confira nosso portifólio de automações criadas para as mais diversas aplicações e atividades das mais diversas áreas de sua empresa
+          Confira nosso portifólio de automações criadas para as mais diversas
+          aplicações e atividades das mais diversas áreas de sua empresa
         </p>
       </section>
-  <!-- Apresentação Fim -->
-  
-  <!-- Vídeo_Apresentação Início -->
+      <!-- Apresentação Fim -->
 
-<div class="presentation">
-  <section>
-    <p>Essa área é reservada para o vídeo de apresentação de nossos trabalhos.</p>
-  </section>
-</div>
-  <!-- Vídeo_Apresentação Fim -->
-<div class="row">
-  <div class="column">
-    <h2 id="identity">Assistente de Agendamentos</h2>
-    <br>
-    <div>
-      <figure id="img">
-        <img src="" alt="">
-      </figure>
-    </div>
-    <p>Perfeito para te ajudar a organizar um grande volume de solicitações de maneira fácil, prática e funcional. Reuniões, consultorias e muito mais sendo organizado para você não se preocupar com atividades repetitivas. Confira!</p>
-  </div>
-  <div class="column">
-    <h2 id="identity">Captador de Leads Qualificados</h2>
-    <br>
-    <div>
-      <figure id="img">
-        <img src="" alt="">
-      </figure>
-    </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-  </div>
-  <div class="column">
-    <h2 id="identity">Assistente de Suporte ao Cliente</h2>
-    <br>
-    <div>
-      <figure id="img">
-        <img src="" alt="">
-      </figure>
-    </div>
-    <p>Dúvidas básicas, orientações simples, interações rápidas e objetivas. Um assistente que te permite prestar a ajuda que seu cliente realmente precisa. Saiba mais.</p>
-  </div>
-  <div class="column">
-    <h2 id="identity">Assistente de Agendamentos</h2>
-    <br>
-    <div>
-      <figure id="img">
-        <img src="" alt="">
-      </figure>
-    </div>
-    <p>Perfeito para te ajudar a organizar um grande volume de solicitações de maneira fácil, prática e funcional. Reuniões, consultorias e muito mais sendo organizado para você não se preocupar com atividades repetitivas. Confira!</p>
-  </div>
-  <div class="column">
-    <h2 id="identity">Captador de Leads Qualificados</h2>
-    <br>
-    <div>
-      <figure id="img">
-        <img src="" alt="">
-      </figure>
-    </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-  </div>
-  <div class="column">
-    <h2 id="identity">Assistente de Suporte ao Cliente</h2>
-    <br>
-    <div>
-      <figure id="img">
-        <img src="" alt="">
-      </figure>
-    </div>
-    <p>Dúvidas básicas, orientações simples, interações rápidas e objetivas. Um assistente que te permite prestar a ajuda que seu cliente realmente precisa. Saiba mais.</p>
-  </div>
-</div>
-<section class="upperbanner">
-  <h3 id="close_effect_phrase">Na IA-B2Business não apenas te damos o peixe, mas te ensinamos a pescar! Conheça o B2-Gather!</h3>
-  <br>
-  <p id="close_sub_title">Já imagino aprender como criar e desenvolver suas próprias automações e ainda receber um certificado que garante a qualidade e a credibilidade da sua capacitação? Pois é! A IA-B2Business acredita e se compromente com o desenvolvimento e a divulgação dessa tecnologia para que pessoas possam se reinserir no mercado de trabalho e empresas treinar seus funcionários valorizando os talentos que existem dentro de cada uma delas!</p>
-  <p id="close_sub_title">Por isso, desenvolvemos o B2-Gather em parceria com profissionais e especialistas para ajudar você a ingressar nesse novo mercado.</p>
-</section>
-<!-- Main -->
- <!-- Footer Início -->
- <footer class="footer el">
-	<h4>IA-B2Business</h4>
-	<p>contato: LLconsultoria@gmail.com</p>
-	<p style="text-align: center; font-size: small">
-	  todos os direitos reservados
-	</p>
-  </footer>
- <!-- Footer Fim -->
-  <!-- MODAL POP UP -->
+      <!-- Vídeo_Apresentação Início -->
 
-  <form id="form-data" name="form-data" method="post">
-    <div class="content">
-      <div class="form-content">
-        <label for="firstName"
-          >Nome: <span style="color: red"> * </span></label
-        >
-        <input
-          type="text"
-          name="firstName"
-          id="firstName"
-          placeholder="Nome"
-          autocomplete="on"
-          required
-        />
+      <div class="presentation">
+        <section>
+          <p>
+            Essa área é reservada para o vídeo de apresentação de nossos
+            trabalhos.
+          </p>
+        </section>
       </div>
-      <div class="form-content">
-        <label for="lastName"
-          >Sobrenome: <span style="color: red"> * </span></label
-        >
-        <input
-          type="text"
-          name="lastName"
-          id="lastName"
-          placeholder="Sobrenome"
-          autocomplete="on"
-          required
-        />
+      <!-- Vídeo_Apresentação Fim -->
+      <div class="row">
+        <div class="column">
+          <h2 id="identity">Assistente de Agendamentos</h2>
+          <br />
+          <div>
+            <figure id="img">
+              <img src="" alt="" />
+            </figure>
+          </div>
+          <p>
+            Perfeito para te ajudar a organizar um grande volume de solicitações
+            de maneira fácil, prática e funcional. Reuniões, consultorias e
+            muito mais sendo organizado para você não se preocupar com
+            atividades repetitivas. Confira!
+          </p>
+        </div>
+        <div class="column">
+          <h2 id="identity">Captador de Leads Qualificados</h2>
+          <br />
+          <div>
+            <figure id="img">
+              <img src="" alt="" />
+            </figure>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            sit amet pretium urna. Vivamus venenatis velit nec neque ultricies,
+            eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+            placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
+            Praesent scelerisque tortor sed accumsan convallis.
+          </p>
+        </div>
+        <div class="column">
+          <h2 id="identity">Assistente de Suporte ao Cliente</h2>
+          <br />
+          <div>
+            <figure id="img">
+              <img src="" alt="" />
+            </figure>
+          </div>
+          <p>
+            Dúvidas básicas, orientações simples, interações rápidas e
+            objetivas. Um assistente que te permite prestar a ajuda que seu
+            cliente realmente precisa. Saiba mais.
+          </p>
+        </div>
+        <div class="column">
+          <h2 id="identity">Assistente de Agendamentos</h2>
+          <br />
+          <div>
+            <figure id="img">
+              <img src="" alt="" />
+            </figure>
+          </div>
+          <p>
+            Perfeito para te ajudar a organizar um grande volume de solicitações
+            de maneira fácil, prática e funcional. Reuniões, consultorias e
+            muito mais sendo organizado para você não se preocupar com
+            atividades repetitivas. Confira!
+          </p>
+        </div>
+        <div class="column">
+          <h2 id="identity">Captador de Leads Qualificados</h2>
+          <br />
+          <div>
+            <figure id="img">
+              <img src="" alt="" />
+            </figure>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            sit amet pretium urna. Vivamus venenatis velit nec neque ultricies,
+            eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+            placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
+            Praesent scelerisque tortor sed accumsan convallis.
+          </p>
+        </div>
+        <div class="column">
+          <h2 id="identity">Assistente de Suporte ao Cliente</h2>
+          <br />
+          <div>
+            <figure id="img">
+              <img src="" alt="" />
+            </figure>
+          </div>
+          <p>
+            Dúvidas básicas, orientações simples, interações rápidas e
+            objetivas. Um assistente que te permite prestar a ajuda que seu
+            cliente realmente precisa. Saiba mais.
+          </p>
+        </div>
       </div>
-      <div class="form-content">
-        <label for="phone"
-          >Telefone: <span style="color: red"> * </span> (WhatsApp)</label
-        >
-        <input
-          type="tel"
-          name="phone"
-          id="phone"
-          placeholder="(11) 91234-5678"
-          autocomplete="on"
-          required
-        />
-      </div>
-      <div class="form-content">
-        <label for="email">Email: <span style="color: red"> * </span></label>
-        <input
-          type="text"
-          name="email"
-          id="email"
-          placeholder="email@email.com"
-          pattern=".*@.*\.com"
-          autocomplete="on"
-          required
-        />
-      </div>
-      <div class="form-content">
-        <label for="companyName"
-          >Nome da Empresa: <span style="color: red"> * </span></label
-        >
-        <input
-          type="text"
-          name="companyName"
-          id="companyName"
-          placeholder="Nome da empresa"
-          autocomplete="on"
-          required
-        />
-      </div>
-      <div class="form-content">
-        <label for="description"
-          >Descreva seus desafios: <span style="color: red"> * </span></label
-        >
-        <textarea
-          name="description"
-          id="description"
-          placeholder="Descreva seus desafios aqui"
-          style="resize: none;"
-        ></textarea>
-      </div>
-      <div id="buttons">
-        <button id="cancel" class="button danger">Cancelar</button>
-        <button type="submit" id="send" class="button" >Enviar</button>
-      </div>
-    </div>
-  </form>
+      <section class="upperbanner">
+        <h3 id="close_effect_phrase">
+          Na IA-B2Business não apenas te damos o peixe, mas te ensinamos a
+          pescar! Conheça o B2-Gather!
+        </h3>
+        <br />
+        <p id="close_sub_title">
+          Já imaginou aprender como criar e desenvolver suas próprias automações
+          e ainda receber um certificado que garante a qualidade e a
+          credibilidade da sua capacitação? Pois é! A IA-B2Business acredita e
+          se compromete com o desenvolvimento e a divulgação dessa tecnologia,
+          para que pessoas possam se reinserir no mercado de trabalho e empresas
+          treinem seus funcionários, valorizando os talentos que existem dentro
+          de cada uma delas!
+        </p>
+        <p id="close_sub_title">
+          Por isso desenvolvemos o B2-Gather, em parceria com profissionais e
+          especialistas para ajudar você a ingressar nesse novo mercado.
+        </p>
+      </section>
+    </main>
+    <!-- Main -->
+    <!-- Footer Início -->
+    <footer class="footer el">
+      <h4>IA-B2Business</h4>
+      <p>contato: LLconsultoria@gmail.com</p>
+      <p style="text-align: center; font-size: small">
+        todos os direitos reservados
+      </p>
+    </footer>
+    <!-- Footer Fim -->
+    <!-- MODAL POP UP -->
 
-  <!-- Scripts nosso -->
-  <script src="./js/utils/validateInput.js"></script>
-  <script src="./js/models/userRequest.js"></script>
-  <script src="./js/controllers/sendEmail.js"></script>
-  <script src="./js/utils/fadeInOut.js"></script>
+    <form id="form-data" name="form-data" method="post">
+      <div class="content">
+        <div class="form-content">
+          <label for="firstName"
+            >Nome: <span style="color: red"> * </span></label
+          >
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="Nome"
+            autocomplete="on"
+            required
+          />
+        </div>
+        <div class="form-content">
+          <label for="lastName"
+            >Sobrenome: <span style="color: red"> * </span></label
+          >
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Sobrenome"
+            autocomplete="on"
+            required
+          />
+        </div>
+        <div class="form-content">
+          <label for="phone"
+            >Telefone: <span style="color: red"> * </span> (WhatsApp)</label
+          >
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="(11) 91234-5678"
+            autocomplete="on"
+            required
+          />
+        </div>
+        <div class="form-content">
+          <label for="email">Email: <span style="color: red"> * </span></label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="email@email.com"
+            pattern=".*@.*\.com"
+            autocomplete="on"
+            required
+          />
+        </div>
+        <div class="form-content">
+          <label for="companyName"
+            >Nome da Empresa: <span style="color: red"> * </span></label
+          >
+          <input
+            type="text"
+            name="companyName"
+            id="companyName"
+            placeholder="Nome da empresa"
+            autocomplete="on"
+            required
+          />
+        </div>
+        <div class="form-content">
+          <label for="description"
+            >Descreva seus desafios: <span style="color: red"> * </span></label
+          >
+          <textarea
+            name="description"
+            id="description"
+            placeholder="Descreva seus desafios aqui"
+            style="resize: none"
+          ></textarea>
+        </div>
+        <div id="buttons">
+          <button id="cancel" class="button danger">Cancelar</button>
+          <button type="submit" id="send" class="button">Enviar</button>
+        </div>
+      </div>
+    </form>
 
-  <!-- Scripts necessarios do GSAP -->
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/PixiPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
-</body>
+    <!-- Scripts nosso -->
+    <script src="./js/utils/validateInput.js"></script>
+    <script src="./js/models/userRequest.js"></script>
+    <script src="./js/controllers/sendEmail.js"></script>
+    <script src="./js/utils/fadeInOut.js"></script>
+    <script src="./js/factory/toastMessage.js"></script>
+    <script src="./js/utils/constants.js"></script>
+    <script src="./js/models/modelColors.js"></script>
+
+
+    <!-- Scripts necessarios do GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/PixiPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+  </body>
 </html>

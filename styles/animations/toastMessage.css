@@ -1,18 +1,18 @@
 @keyframes toastMessageTemp {
-    0% {
-        opacity: 1;
-        transform: translateX(100rem);
-    }
-    10% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-    50% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-    100% {
-        opacity: 0;
-        transform: translateX(0);
-    }
+  0% {
+    opacity: 1;
+    transform: translateX(100rem);
+  }
+  10% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(0);
+  }
 }
